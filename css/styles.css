@@ -1,0 +1,306 @@
+body {
+  background-color: #090910;
+  color: white;
+  margin: inherit;
+  margin: 0;
+  text-align: center;
+}
+.ul-div {
+  text-align: left;
+}
+
+.s-logo {
+  margin: 30px auto auto auto;
+}
+
+.tab {
+  margin-top: 10px;
+}
+
+p {
+  line-height: 2;
+}
+
+.center-h1 {
+  margin-bottom: 0;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.center-p {
+  margin-top: 0;
+  position: relative;
+  left: 110px;
+  font-family: 'Sacramento', cursive;
+  font-size: 30px;
+}
+
+.f-span {
+  color: #00D7FF;
+}
+
+.p-span {
+  color: #EAE509;
+
+}
+
+.l-span {
+  color: #ECB390;
+}
+
+
+
+table {
+  text-align: center;
+  color: white;
+  background-color: #2C3639;
+  border-collapse: collapse;
+  width: 95%;
+  margin-bottom: 10px;
+
+}
+td {
+  font-size: 20px;
+  border: 1px solid;
+  border-color: #222831;
+}
+
+h1 {
+  color: #DEA057;
+  font-size: 55px;
+}
+
+
+
+thead {
+  background-color: #222831;
+  height: 70px;
+}
+
+.buttom-div {
+  margin: 0;
+  background-color: #2C3333;
+  width: 100%;
+  height: 70px;
+}
+
+.p-c {
+  margin: 10px auto auto auto;
+  display: inline-block;
+}
+
+/*.sticker {
+  width: 250px;
+  height: 250px;
+}
+
+.sticker1 {
+  width: 250px;
+  height: 250px;
+  margin-bottom: inherit;
+  margin-bottom: 125px;
+  position: absolute;
+  margin-right: 200px;
+}*/
+
+.special {
+  width: 500px;
+  height: 500px;
+  margin-top: inherit;
+  margin-top: 60px;
+}
+
+
+#div {
+  background-color: #212121;
+  height: inherit;
+  height: 620px;
+  width: 100%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.b-div {
+  margin: 400px auto auto auto;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+.centered {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.picture-img {
+  width: 100%;
+}
+
+/* Button Genetrator */
+
+button {
+ width: 140px;
+ height: 45px;
+ font-size: 23px;
+ cursor: pointer;
+ border: none;
+ outline: none;
+ background: transparent;
+ color: white;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 700;
+ position: relative;
+ transition: all 0.5s;
+ z-index: 1;
+}
+
+button::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 5px;
+ height: 100%;
+ background-color: white;
+ z-index: -1;
+ transition: all 0.5s;
+}
+
+button:hover::before {
+ width: 100%;
+}
+
+button:hover {
+ color: black;
+}
+
+button:active:before {
+ background: #b9b9b9;
+}
+
+.text {
+  width: 100%;
+  margin: 10 auto 70 auto;
+}
+
+.float {
+  width: 40%;
+}
+
+.con {
+  margin: 40px auto auto auto;
+  width: 75%;
+}
+
+.league-code {
+ width: 140px;
+ height: 45px;
+ font-size: 23px;
+ cursor: pointer;
+ border: none;
+ outline: none;
+ background: transparent;
+ color: white;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 700;
+ position: relative;
+ transition: all 0.5s;
+ z-index: 1;
+}
+
+.league-code::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 5px;
+ height: 100%;
+ background-color: white;
+ z-index: -1;
+ transition: all 0.5s;
+}
+
+.league-code:hover::before {
+ width: 100%;
+}
+
+.league-code:hover {
+ color: black;
+}
+
+.league-code:active:before {
+ background: #b9b9b9;
+}
+
+.div-buttons {
+  margin-bottom: 20px;
+}
+
+/* standings */
+
+.standings {
+ width: 140px;
+ height: 45px;
+ font-size: 23px;
+ cursor: pointer;
+ border: none;
+ outline: none;
+ background: transparent;
+ color: white;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 700;
+ position: relative;
+ transition: all 0.5s;
+ z-index: 1;
+}
+
+.standings::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 5px;
+ height: 100%;
+ background-color: white;
+ z-index: -1;
+ transition: all 0.5s;
+}
+
+.standings:hover::before {
+ width: 100%;
+}
+
+.standings:hover {
+ color: black;
+}
+
+.standings:active:before {
+ background: #b9b9b9;
+}
