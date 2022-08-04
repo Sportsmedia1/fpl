@@ -59,9 +59,10 @@ table {
   margin-bottom: 10px;
 
 }
+
 td {
   font-size: 20px;
-  border: 1px solid;
+  border: 2px solid;
   border-color: #222831;
 }
 
